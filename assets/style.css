@@ -59,7 +59,7 @@
 }
 
 #banner{
-    height: 700px;
+    height: 720px;
 }
 
 .text {
@@ -291,4 +291,8 @@
     background-color: whitesmoke;
     border-top: 1px lightgrey solid;
     color: black;
+}
+
+#footer-text {
+    text-align: center;
 }
