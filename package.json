@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackdixonryan/portfolio.git"
+  },
+  "author": "Jack Ryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackdixonryan/portfolio/issues"
+  },
+  "homepage": "https://github.com/jackdixonryan/portfolio#readme"
+}
