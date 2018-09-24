@@ -150,6 +150,7 @@
     margin-right: auto;
 }
 
+
 #about-me a {
     float: left;
     padding-left: 30px;
@@ -334,6 +335,12 @@
 
 .gif:hover {
     opacity: .5;
+}
+
+.textTwo {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .gif:hover + .centered {
