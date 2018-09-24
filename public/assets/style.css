@@ -61,12 +61,6 @@
     height: 720px;
 }
 
-.text {
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
 .all-content h4{
     font-size: 20px;
     margin-top: 200px;
@@ -184,11 +178,12 @@
     text-align: center;
     display: block;
     clear: both;
-    width: 75%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
 }
 
 #speedtrapp {
@@ -242,7 +237,7 @@
 
 .gif {
     margin-bottom: 20px;
-    width: 80%;
+    min-width: 420px;
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -293,4 +288,69 @@
 
 #footer-text {
     text-align: center;
+}
+
+.content-left {
+    text-align: left;
+    flex: 3;
+    padding: 20px;
+}
+
+.content-right {
+    flex: 3;
+    text-align: right;
+    padding: 20px;
+}
+
+.right-text-filled {
+    border-right: 10px #6ead3a solid;
+}
+
+.left-text-filled {
+    border-left: 10px #343239 solid;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #6ead3a
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.icons {
+    font-size: 50px;
+}
+
+.icons li {
+    display: inline;
+}
+
+.gif:hover {
+    opacity: .5;
+}
+
+.gif:hover + .centered {
+    display: block;
+}
+
+#hbars {
+    height: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .portfolio-item {
+        display: initial;
+    }
+
+    .gif {
+        width: 80%;
+        min-width: 0px;
+    }
 }
