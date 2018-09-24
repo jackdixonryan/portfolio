@@ -7,7 +7,7 @@
     margin: 0;
     width: 50%;
     background-color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #break {
@@ -18,8 +18,8 @@
 
 #about-btn {
     background-color: #6ead3a;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     margin-top: 15px;
     padding: 10px;
     padding-left: 30px;
@@ -118,7 +118,7 @@
     float: left;
     width: 33%;
     background-color: #343239;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     padding: 20px;
     padding-left: 30px;
@@ -131,13 +131,14 @@
 }
 
 @keyframes colorchange {
-    from {background-color: #773DA4;}
-    to {background-color: #BDB76B;}
+    0% {background-color: #6ead3a;}
+    50% {background-color: darkolivegreen;}
+    100% {background-color: darkolivegreen;}
 }
 
 #menu-buttons a:hover {
     animation-name: colorchange;
-    animation-duration: 1s;
+    animation-duration: 20s;
 }
 
 #about-me{
@@ -231,11 +232,20 @@
     color: black;
     text-decoration: none;
     text-align: center;
+    display: inline-block;
 }
 
 .go:hover {
     animation: colorchange;
-    animation-duration: 2s;
+    animation-duration: 20s;
+}
+
+.gif {
+    margin-bottom: 20px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 #contact{
